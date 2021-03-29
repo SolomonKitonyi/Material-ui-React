@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TextField />
+        <TextField variant="filled" color="green" type="date" label="The date" />
+        <br/> <br/>
         <ButtonGroup size="large" variant="contained">
             <Button startIcon={<SaveIcon/>} color="primary">
               Save
