@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ButtonGroup>
-            <Button startIcon={<SaveIcon/>} size="large" variant='contained' color="primary">
+        <ButtonGroup size="large" variant="contained">
+            <Button startIcon={<SaveIcon/>} color="primary">
               Save
             </Button> 
-            <Button startIcon={<SaveIcon/>} size="large" variant='contained' color="primary">
+            <Button startIcon={<DeleteIcon/>} color="secondary">
               Discard
             </Button> 
         </ButtonGroup>
